@@ -10,10 +10,15 @@ Where to start and what not to miss when interested in profiling python apps. Ta
 - [profiling](https://github.com/what-studio/profiling) - An interactive Python profiler.
 - [vprof](https://github.com/nvdv/vprof) - Visual Python profiler.
 
+## Performance analysis:
+- [A guide to analyzing Python performance](https://www.huyng.com/posts/python-performance-analysis) - Very informative article written by SE at Flickr
+
+
 ## Memory leaks use-cases:
 - [Tracing python memory leaks](http://tech.labs.oliverwyman.com/blog/2008/11/14/tracing-python-memory-leaks/) #PDB
 - [Hunting memory leaks in Python](http://mg.pov.lt/blog/hunting-python-memleaks.html) #PDB
 - [Python object graphs](http://mg.pov.lt/blog/python-object-graphs.html) #GC
+- [Diagnosing Memory "Leaks" in Python](http://chase-seibert.github.io/blog/2013/08/03/diagnosing-memory-leaks-python.html) #Objgraph #Heapy #GDB
 
 ## Production profiling use-cases and tools:
 - [nylas-perftools](https://github.com/nylas/nylas-perftools "nylas-perftools") one of the best profiling tools I tried, with very little CPU overhead (they litteraly say its negligible). Read more about their use-case: https://www.nylas.com/blog/performance/ #Flask
