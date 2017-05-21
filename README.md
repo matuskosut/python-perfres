@@ -1,4 +1,4 @@
-# python-perfres (Performance profiling resources for Python)
+# Performance profiling resources for Python
 
 Where to start and what not to miss when interested in profiling python apps. Target is to manage profiling web apps based on python frameworks (e.g. flask) right in production, but also many use-cases of basic python profiling methods are listed in order to better understand the possible drawbacks of tracing production apps.
 
@@ -13,7 +13,6 @@ Where to start and what not to miss when interested in profiling python apps. Ta
 - [Tracing python memory leaks](http://tech.labs.oliverwyman.com/blog/2008/11/14/tracing-python-memory-leaks/) #PDB
 - [Hunting memory leaks in Python](http://mg.pov.lt/blog/hunting-python-memleaks.html) #PDB
 
-
 ## Production profiling use-cases and tools:
 - [nylas-perftools](https://github.com/nylas/nylas-perftools "nylas-perftools") one of the best profiling tools I tried, with very little CPU overhead (they litteraly say its negligible). Read more about their use-case: https://www.nylas.com/blog/performance/ #Flask
-
+- [Profiling a Werkzeug (flask) app](http://www.alexandrejoseph.com/blog/2015-12-17-profiling-werkzeug-flask-app.html) #Flask
