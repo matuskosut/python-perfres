@@ -6,13 +6,17 @@ Where to start and what not to miss when interested in profiling python apps. Ta
 
 - [line_profiler](https://github.com/rkern/line_profiler) - Line-by-line profiling.
 - [memory_profiler](https://github.com/fabianp/memory_profiler) - Monitor Memory usage of Python code.
+- [memprof](https://github.com/jmdana/memprof) - Memory profiler for Python
 - [profiling](https://github.com/what-studio/profiling) - An interactive Python profiler.
 - [vprof](https://github.com/nvdv/vprof) - Visual Python profiler.
 
 ## Memory leaks use-cases:
 - [Tracing python memory leaks](http://tech.labs.oliverwyman.com/blog/2008/11/14/tracing-python-memory-leaks/) #PDB
 - [Hunting memory leaks in Python](http://mg.pov.lt/blog/hunting-python-memleaks.html) #PDB
+- [Python object graphs](http://mg.pov.lt/blog/python-object-graphs.html) #GC
 
 ## Production profiling use-cases and tools:
 - [nylas-perftools](https://github.com/nylas/nylas-perftools "nylas-perftools") one of the best profiling tools I tried, with very little CPU overhead (they litteraly say its negligible). Read more about their use-case: https://www.nylas.com/blog/performance/ #Flask
 - [Profiling a Werkzeug (flask) app](http://www.alexandrejoseph.com/blog/2015-12-17-profiling-werkzeug-flask-app.html) #Flask
+- [Deploying and Monitoring Python Web Apps with uWSGI](https://www.engagespark.com/blog/deploying-monitoring-python-web-apps-uwsgi/) - there is a way to look at a current stack trace using very simple setting in uwsgi app config, and the affect to performance of the application itself seems to be minimal. This may be interesting for those running multiple workers (separate stats socket is used for every worker). Other debugging examples and tools are stated in the article too. #Tracebacker
+
