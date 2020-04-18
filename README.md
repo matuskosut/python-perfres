@@ -14,6 +14,7 @@ Where to start and what not to miss when interested in profiling python apps. Ta
 
 ## Performance analysis:
 - [A guide to analyzing Python performance](https://www.huyng.com/posts/python-performance-analysis) - Very informative article written by SE at Flickr
+- [Computation and scaling](https://github.com/matuskosut/python-perfres/blob/master/computation_and_scaling.md) - Computation on multicore processors and scaling issues/tooling
 
 
 ## Memory leaks use-cases:
