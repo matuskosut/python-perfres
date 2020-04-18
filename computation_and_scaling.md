@@ -29,7 +29,7 @@ try:
     import os
     os.environ["OMP_NUM_THREADS"] = "1"  # OMP_NUM_THREADS: openmp
     os.environ["OPENBLAS_NUM_THREADS"] = "1"  # OPENBLAS_NUM_THREADS: openblas
-    os.environ["MKL_NUM_THREADS"] = "1"  # MKL_NUM_THREADS: mkl
+    os.environ["MKL_THREADING_LAYER"] = "sequential". # MKL_THREADING_LAYER: mkl (instead of MKL_THREADING_LAYER=1)
     os.environ["VECLIB_MAXIMUM_THREADS"] = "1"  # VECLIB_MAXIMUM_THREADS: accelerate
     os.environ["NUMEXPR_NUM_THREADS"] = "1"  # NUMEXPR_NUM_THREADS: numexpr
     os.environ["MXNET_CPU_WORKER_NTHREADS"] = "1"  # MXNET_CPU_WORKER_NTHREADS: mxnet
@@ -51,3 +51,4 @@ except:
 
 ## Resources
 - [Understanding parallel performance](https://www.drdobbs.com/parallel/understanding-parallel-performance/211800538)
+- [MKL Developer guide for calling Intel MKL functions](https://software.intel.com/en-us/mkl-linux-developer-guide-calling-intel-mkl-functions-from-multi-threaded-applications)
