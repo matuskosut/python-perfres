@@ -5,6 +5,7 @@ Draft of computation and scaling on multicore processors and related issues/tool
 ## On avoiding oversubscription
 - [Thread-pool Controls](https://github.com/joblib/threadpoolctl) - Python helpers to limit the number of threads used in native libraries that handle their own internal threadpool (BLAS and OpenMP implementations)
 - [Sharedmem](https://github.com/rainwoodman/sharedmem) ([documentation](https://rainwoodman.github.io/sharedmem/)) - Easier parallel programming on shared memory computers 
+- [Static Multi-Processing](https://github.com/IntelPython/smp) - SMP module allows to set static affinity mask for each process inside process pool to limit total number of threads running in application.
 
 ```
 from threadpoolctl import threadpool_info, threadpool_limits
