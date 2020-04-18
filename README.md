@@ -4,7 +4,7 @@ Where to start and what not to miss when interested in profiling python apps. Ta
 
 ## Basic python profiling tools:
 
-- [py-spy](https://github.com/benfred/py-spy) - Py-Spy top-like sampling profiler (low overhead, non-interuptive, flame graphs)
+- [py-spy](https://github.com/benfred/py-spy) - Py-Spy top-like sampling profiler (low overhead, non-interuptive, [flame graphs](https://github.com/brendangregg/FlameGraph))
 - [line_profiler](https://github.com/rkern/line_profiler) - Line-by-line profiling.
 - [memory_profiler](https://github.com/fabianp/memory_profiler) - Monitor Memory usage of Python code.
 - [memprof](https://github.com/jmdana/memprof) - Memory profiler for Python
