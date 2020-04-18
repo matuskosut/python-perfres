@@ -7,11 +7,18 @@ Draft of computation and scaling on multicore processors and related issues/tool
 - [Sharedmem](https://github.com/rainwoodman/sharedmem) ([documentation](https://rainwoodman.github.io/sharedmem/)) - Easier parallel programming on shared memory computers 
 
 ```
-from threadpoolctl import threadpool_info
+from threadpoolctl import threadpool_info, threadpool_limits
 from pprint import pprint
-import numpy
+import numpy as np
 
 pprint(threadpool_info())
+
+with threadpool_limits(limits=1, user_api='blas'):
+    # In this block, calls to blas implementation (like openblas or MKL)
+    # will be limited to use only one thread. They can thus be used jointly
+    # with thread-parallelism.
+    a = np.random.randn(1000, 1000)
+    a_squared = a @ a
 ```
 
 Limiting threads for common optimization libraries:
