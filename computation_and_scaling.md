@@ -4,6 +4,7 @@ Draft of computation and scaling on multicore processors and related issues/tool
 
 ## On avoiding oversubscription
 - [Thread-pool Controls](https://github.com/joblib/threadpoolctl) - Python helpers to limit the number of threads used in native libraries that handle their own internal threadpool (BLAS and OpenMP implementations)
+- [Sharedmem](https://github.com/rainwoodman/sharedmem) - Easier parallel programming on shared memory computers ([documentation](https://rainwoodman.github.io/sharedmem/))
 
 ```
 from threadpoolctl import threadpool_info
