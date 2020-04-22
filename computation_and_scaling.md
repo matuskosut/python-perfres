@@ -2,6 +2,12 @@
 
 Draft of computation and scaling on multicore processors and related issues/tooling.
 
+- [Pandas](https://pandas.pydata.org/) - fast, powerful, flexible and easy to use open source data analysis and manipulation tool
+- [NumPy](https://numpy.org/) - fundamental package for scientific computing with Python
+- [SciPy](https://scipy.org/) - ecosystem of open-source software for mathematics, science, and engineering
+- [Swifter](https://github.com/jmcarpenter2/swifter) - efficiently applies any function to a pandas dataframe or series in the fastest available manner
+- [Dask - Scalable analytics in Python](https://docs.dask.org/en/latest/install.html) - open source library for parallel computing
+
 ## On avoiding oversubscription
 - [Thread-pool Controls](https://github.com/joblib/threadpoolctl) - Python helpers to limit the number of threads used in native libraries that handle their own internal threadpool (BLAS and OpenMP implementations)
 - [Multiple OpenMP runtimes](https://github.com/joblib/threadpoolctl/blob/master/multiple_openmp.md) - Issues having multiple OpenMP runtimes and proposed approaches
