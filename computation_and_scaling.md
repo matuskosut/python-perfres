@@ -14,6 +14,8 @@ Draft of computation and scaling on multicore processors and related issues/tool
 - [Sharedmem](https://github.com/rainwoodman/sharedmem) ([documentation](https://rainwoodman.github.io/sharedmem/)) - Easier parallel programming on shared memory computers 
 - [Static Multi-Processing](https://github.com/IntelPython/smp) - SMP module allows to set static affinity mask for each process inside process pool to limit total number of threads running in application.
 
+Most of the tools for effective computation already come with a lot of optimizations for multicore systems. When optimizing for performance we have to take previous optimizations in consideration to avoid opposite effects. In the case of oversubcription for example when running multitude of python processes we may consider limiting number of available cores for optimization layer (specific library - e.g. blas).
+
 ```
 from threadpoolctl import threadpool_info, threadpool_limits
 from pprint import pprint
