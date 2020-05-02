@@ -5,6 +5,7 @@ Draft of computation and scaling on multicore processors and related issues/tool
 - [Pandas](https://pandas.pydata.org/) - fast, powerful, flexible and easy to use open source data analysis and manipulation tool
 - [NumPy](https://numpy.org/) - fundamental package for scientific computing with Python
 - [SciPy](https://scipy.org/) - ecosystem of open-source software for mathematics, science, and engineering
+- [PyMC](https://docs.pymc.io/) - probabilistic programming library for Python
 - [Swifter](https://github.com/jmcarpenter2/swifter) - efficiently applies any function to a pandas dataframe or series in the fastest available manner
 - [Dask - Scalable analytics in Python](https://docs.dask.org/en/latest/install.html) - open source library for parallel computing
 
