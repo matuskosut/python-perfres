@@ -63,3 +63,4 @@ except:
 - [Understanding parallel performance](https://www.drdobbs.com/parallel/understanding-parallel-performance/211800538)
 - [MKL Developer guide for calling Intel MKL functions](https://software.intel.com/en-us/mkl-linux-developer-guide-calling-intel-mkl-functions-from-multi-threaded-applications)
 - [SciPy - Guide to parallel programming in Python](https://scipy-cookbook.readthedocs.io/items/ParallelProgramming.html)
+- [Speed-up numpy with Intel's Math Kernel Library (MKL) (2019.10)](https://jwalton.info/Python-MKL-openBLAS/)
