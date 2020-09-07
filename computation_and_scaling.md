@@ -9,6 +9,11 @@ Draft of computation and scaling on multicore processors and related issues/tool
 - [Swifter](https://github.com/jmcarpenter2/swifter) - efficiently applies any function to a pandas dataframe or series in the fastest available manner
 - [Dask - Scalable analytics in Python](https://docs.dask.org/en/latest/install.html) - open source library for parallel computing
 
+## Biology / Genomics
+
+- [PyRanges](https://github.com/biocore-ntnu/pyranges) - GenomicRanges and genomic Rle-objects for Python.
+- [Epic2](https://github.com/biocore-ntnu/epic2) - epic2 is an ultraperformant reimplementation of SICER. It focuses on speed, low memory overhead and ease of use.
+
 ## On avoiding oversubscription
 - [Thread-pool Controls](https://github.com/joblib/threadpoolctl) - Python helpers to limit the number of threads used in native libraries that handle their own internal threadpool (BLAS and OpenMP implementations)
 - [Multiple OpenMP runtimes](https://github.com/joblib/threadpoolctl/blob/master/multiple_openmp.md) - Issues having multiple OpenMP runtimes and proposed approaches
