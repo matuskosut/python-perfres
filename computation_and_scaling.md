@@ -3,6 +3,7 @@
 Draft of computation and scaling on multicore processors and related issues/tooling.
 
 - [Pandas](https://pandas.pydata.org/) - fast, powerful, flexible and easy to use open source data analysis and manipulation tool
+  - [Modern Pandas - Part 1](https://tomaugspurger.github.io/modern-1-intro) - Intro to modern Pandas
 - [NumPy](https://numpy.org/) - fundamental package for scientific computing with Python
 - [SciPy](https://scipy.org/) - ecosystem of open-source software for mathematics, science, and engineering
 - [PyMC](https://docs.pymc.io/) - probabilistic programming library for Python
